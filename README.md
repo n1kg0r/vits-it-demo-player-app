@@ -1,4 +1,4 @@
-# La Radio, che Carino – Italian TTS Newsreader
+# La Radio del Carlino – Italian TTS Newsreader
 
 A minimal **fullstack newsreader app** that converts Italian text into speech using a **finetuned VITS model** on Italian news.  
 
@@ -33,6 +33,13 @@ newsreader-app/
 │    └── app.js
 ```
 
+## Model Download
+
+Before running the app, download the pretrained model (not included in this repository due to size):
+
+```bash
+gdown --id 1Uro2gsqQ8SrcWHwx4BK8FCrBu-Oc0rPt --output best_model.pth
+```
 
 ## Usage
 
